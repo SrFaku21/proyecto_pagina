@@ -11,9 +11,9 @@
     box-sizing: border-box;
 }
 body {
-    background: #8E2DE2;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #8E2DE2;
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2); 
+    background: linear-gradient(to right, #4A00E0, #8E2DE2);
     height: 650px;
     display: flex;
     justify-content: center;
@@ -48,6 +48,7 @@ form .grupo {
 }
 
 input {
+    color: #ffffff;
     background: none;
     font-size: 18px;
     padding: 10px 10px 10px 5px;
@@ -99,6 +100,14 @@ input:valid~label{
 
 input:focus~.barra::before{
     width: 100%;
+}
+
+.warnings{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: #8E2DE2;
+    padding-top: 20px;
 }
 
 button{
